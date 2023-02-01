@@ -1,0 +1,620 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-inner{
+    background-image: url(./img/bg.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.big{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-inner .nav-item .nav-item-list{
+    list-style: none;
+    color: #fff;
+    margin-right: 31px;
+    font-family: "nav";
+    font-size: 16px;
+}
+.nav-item{
+    display: flex;
+    margin: 42px 33px;
+}
+.logo img{
+    margin-left: 22px;
+    margin-top: 12px;
+}
+
+.burger{
+    display: none;
+}
+
+.header-title h1 {
+    font-family: "nav";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+}
+.header-title{
+    margin: 98px 0 0 170px;
+}
+.header-title p{
+    max-width: 450px;
+    color: #fff;
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+} 
+
+li:hover{
+    border-bottom: solid 3px #fff ;
+}
+
+.header-title button{
+    height: 31px;
+    width: 114px;
+    border-radius: 8px;  
+    background-color: #52AADB;  
+    color: #fff;
+    font-size: 14px;
+    font-family: "nav";
+    margin-top: 20px;
+}
+
+
+.under-line{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 260px;
+}
+
+.title__header h2 {
+    font-family: "nav";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+}
+
+.title__header{
+    margin-top: 88px;
+}
+
+.row{
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.row .col:hover{
+    background-color: #EAEAEA;
+}
+// row2
+.row2 .col2:hover{
+    background-color: #EAEAEA;
+}
+
+.row .col{
+    width: 416px;
+    height: 569px;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    box-shadow: 10px 10px 20px 0px #C5C5C5;
+    box-shadow: -10px -10px 20px 0px #FFFFFF;
+    margin-left: 34px;
+}
+
+.row .col .img {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.row .col .img img{
+    width: 200px;
+}
+
+.row .col h3{
+    font-family: "nav";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;    
+    padding-top: 20px;
+}
+
+.row .col p{
+    margin: 16px 42px;
+    max-width: 370px;
+    color: #000;
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;    
+}
+
+
+.row2{
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.row2 .col2{
+    width: 416px;
+    height: 569px;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    box-shadow: 10px 10px 20px 0px #C5C5C5;
+    box-shadow: -10px -10px 20px 0px #FFFFFF;
+    margin-left: 34px;
+}
+
+.row2 .col2 .img {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.row2 .col2 .img img{
+    width: 200px;
+}
+
+.row2 .col2 h3{
+    font-family: "nav";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;    
+    padding-top: 20px;
+}
+
+.row2 .col2 p{
+    margin: 16px 42px;
+    max-width: 370px;
+    color: #000;
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;    
+}
+
+
+
+.foter-title h2{
+    margin-top: 150px;
+    font-family: "nav";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;    
+}
+
+
+.teachers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.first-teacher{
+    margin: 0px 30px;
+}
+
+.first-teacher img{
+    margin-left: 35px;
+}
+
+
+.teachers .first-teacher .card__title h3{
+    margin-top: 35px;
+    font-family: "nav";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;    
+}
+
+.teachers .first-teacher .card__title p{
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+
+
+.teachers .first-teacher .img-first img:hover{
+    box-shadow: 5px 5px 15px 0px #878787F5;
+
+    box-shadow: -5px -5px 15px 0px #FFFFFF;
+    
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin-top: 102px;
+}
+
+
+.phone h2 {
+    font-family: "nav";
+    font-size: 48px;
+    font-weight: 400;
+    // line-height: 72px;
+    text-align: center;   
+    max-width: 985px; 
+}
+.phone{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+// Fonts
+@font-face {
+    font-family: "nav";
+    src: url(poppins-v20-latin-regular.ttf);
+}
+
+
+@font-face {
+    font-family: "foot";
+    src: url(poppins-v20-latin-600.ttf);
+}
+
+
+.big-call{
+    display: flex;
+    justify-content: center;
+}
+
+.call{
+    margin-top: 50px;
+    // margin-left: 497px;
+    width: 444px;
+    height: 86px;
+    border-radius: 15px;    
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call .text h3{
+    font-family: "nav";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;    
+    color: #FFB800;
+}
+.img-1{
+    margin-right: 10px;
+}
+
+
+
+
+// Medi screnn]]
+
+
+@media screen and(max-width:1221px) {
+    .teachers .first-teacher img{
+        width: 100%;
+    }
+}
+
+@media screen and(max-width:1200px){} 
+
+@media screen and(max-width:1053px) {
+    .row .col h3{
+        font-family: "nav";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: center;    
+    }
+
+    .row .col .img img{
+        width: 180px;
+    }
+    // row2
+    .row2 .col2 h3{
+        font-family: "nav";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: center;    
+    }
+
+    .row2 .col2 .img img{
+        width: 180px;
+    }
+}
+
+@media screen and(max-width:860px) {
+    .teachers{
+        display: flex;
+        flex-direction: column;
+    }
+    .teachers .first-teacher img{
+        width: 400px;
+    }
+    
+    .teachers .first-teacher{
+        margin-top: 30px;
+    }
+}
+
+@media screen and(max-width:926px) {
+    .footer{
+        display: none;
+    }
+    .middle{
+        display: none;
+    }
+    .middle .title{
+        display: none;
+    }
+
+    .LoGo{
+        display: none;
+    }
+
+    .end h3{
+        display: none;
+    }
+    .end .pl3{
+        display: none;
+    }
+}
+
+@media screen and(max-width:881px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+    .col{
+        margin: 20px 0px;
+    }
+    // row2
+    .row2{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+    .col2{
+        margin: 20px 0px;
+    }
+}
+
+
+@media screen and(max-width:847px) {
+    .foter-title h2{
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and(max-width:645px) {
+    .header-title{
+        margin-left: 30px;
+    }
+}
+@media screen and(max-width:500px) {
+    .nav-item-list{
+        display: none;
+    }
+    .burger{
+        margin-top: -40px;
+        display: block;
+    }
+
+}
+
+@media only screen and(max-width:476px) {
+    .row .col{
+        margin-right: 20px;
+    }
+    // row2
+    .row2 .col2{
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and(max-width:447px){
+    .teachers .first-teacher img{
+        width: 300px;
+    }
+    .call{
+        width: 300px;
+    }
+    .call .text h3{
+        font-size: 20px;
+    }
+
+    .phone h2{
+        font-size: 30px;
+    }
+}
+
+.footer .LoGo .ptex p{
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    // letter-spacing: 0em;
+    text-align: left;   
+    max-width: 455px; 
+}
+
+.footer{
+    margin-top: 147px;
+}
+
+.ptex p:nth-child(2){
+    font-family: foot;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: #C7C7C7;
+    margin-top: 32px;  
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle .title .pl p:first-child{
+    margin-top: 30px;
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;    
+}
+
+.pl p:nth-child(2){
+    margin-top: 3px;
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;  
+    color: yellow;
+}
+
+.middle .title h3{
+    font-family: "foot";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
+
+.pl p:nth-child(3){
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;    
+}
+
+.end{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.end .pl3 p:nth-child(1){
+    font-family: "nav";
+    margin: 26px 0px 3px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;    
+}
+
+.end .pl3 p:nth-child(2){
+    margin-bottom: 3px;
+    font-family: "nav";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;    
+    color:#FFB800;
+}
+
+.end h3{
+    font-family: "foot";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;    
+}
+
+@media screen and(max-width:420px){
+    .row .col{
+        width: 316px;
+        height: 685px;
+    }
+    // row2
+    .row2 .col2{
+        width: 316px;
+        height: 685px;
+    }
+}
+
+
+@media screen and(max-width:352px){
+    .teachers .first-teacher img{
+        width: 200px;
+    }
+}
+
+
+
+@media screen and(max-width:330px) {
+    .col p{
+        font-size: 5px;
+        margin: 1px 10px;
+        line-height: 20px;
+    }
+
+    .row .col{
+        width: 200px;
+    }
+
+    .row .col .img img{
+        width: 100px;
+    }
+
+    // row2
+    .row2.col2 p{
+        font-size: 5px;
+        margin: 1px 10px;
+        line-height: 20px;
+    }
+
+    .row2 .col2{
+        width: 200px;
+    }
+
+    .row2 .col2 .img img{
+        width: 100px;
+    }
+    
+}
